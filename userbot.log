@@ -1,0 +1,97 @@
+2026-07-27 11:24:24,871 | INFO    | pyrogram.session.auth | Start creating a new auth key on DC2
+2026-07-27 11:24:24,871 | INFO    | pyrogram.connection.connection | Connecting...
+2026-07-27 11:24:24,984 | INFO    | pyrogram.connection.connection | Connected! Production DC2 - IPv4
+2026-07-27 11:24:26,794 | INFO    | pyrogram.session.auth | Done auth key exchange: DhGenOk
+2026-07-27 11:24:26,795 | INFO    | pyrogram.connection.connection | Disconnected
+2026-07-27 11:24:26,808 | INFO    | pyrogram.connection.connection | Connecting...
+2026-07-27 11:24:26,929 | INFO    | pyrogram.connection.connection | Connected! Production DC2 - IPv4
+2026-07-27 11:24:26,931 | INFO    | pyrogram.session.session | NetworkTask started
+2026-07-27 11:24:27,492 | INFO    | pyrogram.session.session | Session initialized: Layer 158
+2026-07-27 11:24:27,492 | INFO    | pyrogram.session.session | Device: CPython 3.14.0 - Pyrogram 2.0.106
+2026-07-27 11:24:27,492 | INFO    | pyrogram.session.session | System: Windows 11 (en)
+2026-07-27 11:24:27,493 | INFO    | pyrogram.session.session | Session started
+2026-07-27 11:24:27,495 | INFO    | pyrogram.session.session | PingTask started
+2026-07-27 11:34:13,794 | INFO    | userbot | [acc1] ✅ Login OK: id=1389058161 | @Joni2208 | Jasurbek
+2026-07-27 11:34:13,795 | INFO    | userbot | 👂 1 ta akkaunt faol. Barchasi shaxsiy xabarlarni kutmoqda...
+2026-07-27 11:34:22,192 | ERROR   | userbot | Akkaunt qo'shishda xato
+Traceback (most recent call last):
+  File "C:\jasurbeksFolder\projects\n8naiagent\userbot_multi.py", line 130, in console_add_loop
+    api_id = int((await asyncio.to_thread(input, "API_ID: ")).strip())
+ValueError: invalid literal for int() with base 10: 'asdsadsad'
+2026-07-27 11:34:36,066 | ERROR   | asyncio | Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<console_add_loop() done, defined at C:\jasurbeksFolder\projects\n8naiagent\userbot_multi.py:122> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\jasurbeksFolder\projects\n8naiagent\userbot_multi.py", line 156, in <module>
+    asyncio.run(main())
+  File "C:\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 706, in run_until_complete
+    self.run_forever()
+  File "C:\Python314\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+  File "C:\Python314\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+  File "C:\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\jasurbeksFolder\projects\n8naiagent\userbot_multi.py", line 131, in console_add_loop
+    api_hash = (await asyncio.to_thread(getpass.getpass, "API_HASH (hidden): ")).strip()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\getpass.py", line 119, in win_getpass
+    raise KeyboardInterrupt
+KeyboardInterrupt
+2026-07-27 11:50:25,122 | INFO    | userbot | [acc1] ✅ Login OK: id=1389058161 | @Joni2208 | Jasurbek
+2026-07-27 11:50:25,122 | INFO    | userbot | 👂 1 ta akkaunt faol. Barchasi shaxsiy xabarlarni kutmoqda...
+2026-07-27 11:50:43,668 | INFO    | httpx | HTTP Request: POST https://abdugaffarovv.app.n8n.cloud/webhook/telegram-userbot "HTTP/1.1 404 Not Found"
+2026-07-27 11:50:43,672 | WARNING | userbot | [acc1] Webhook 404, reply yuborilmadi.
+2026-07-27 11:50:53,766 | INFO    | root | Stop signal received (SIGINT). Exiting...
+2026-07-27 11:50:53,767 | ERROR   | asyncio | Task exception was never retrieved
+future: <Task finished name='Task-41' coro=<console_add_loop() done, defined at C:\jasurbeksFolder\projects\n8naiagent\userbot_multi.py:136> exception=EOFError()>
+Traceback (most recent call last):
+  File "C:\jasurbeksFolder\projects\n8naiagent\userbot_multi.py", line 139, in console_add_loop
+    cmd = await asyncio.to_thread(input, "\n[+] Yangi akkaunt qo'shish uchun 'add' yozing: ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\jasurbeksFolder\projects\n8naiagent\userbot_multi.py", line 28, in custom_input
+    return _original_input(prompt)
+EOFError
+2026-07-27 11:50:53,773 | INFO    | userbot | [acc1] To'xtatildi.
+2026-07-27 11:50:59,441 | INFO    | userbot | [acc1] ✅ Login OK: id=1389058161 | @Joni2208 | Jasurbek
+2026-07-27 11:50:59,441 | INFO    | userbot | 👂 1 ta akkaunt faol. Barchasi shaxsiy xabarlarni kutmoqda...
+2026-07-27 11:51:04,034 | INFO    | root | Stop signal received (SIGINT). Exiting...
+2026-07-27 11:51:04,034 | ERROR   | userbot | Akkaunt qo'shishda xato
+Traceback (most recent call last):
+  File "C:\jasurbeksFolder\projects\n8naiagent\userbot_multi.py", line 143, in console_add_loop
+    name = (await asyncio.to_thread(input, "Akkaunt nomi (masalan acc2): ")).strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\jasurbeksFolder\projects\n8naiagent\userbot_multi.py", line 28, in custom_input
+    return _original_input(prompt)
+EOFError
+2026-07-27 11:51:04,041 | INFO    | userbot | [acc1] To'xtatildi.
+2026-07-27 11:51:06,120 | INFO    | root | Stop signal received (SIGINT). Exiting...
+2026-07-27 17:15:12,193 | WARNING | pyrogram.connection.connection | Unable to connect due to network issues: Connection timed out

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "acc1",
+    "api_id": 22519226,
+    "api_hash": "fe2a98dca46612976790db65193750b4",
+    "phone": "+998971052208",
+    "session_name": "acc1",
+    "n8n_webhook": "https://abdugaffarovv.app.n8n.cloud/webhook/telegram-userbot",
+    "enabled": true
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "bot_token": "",
+  "admin_ids": [],
+  "default_api_id": 22519226,
+  "default_api_hash": "fe2a98dca46612976790db65193750b4",
+  "default_n8n_webhook": "https://abdugaffarovv.app.n8n.cloud/webhook/telegram-userbot"
+}
